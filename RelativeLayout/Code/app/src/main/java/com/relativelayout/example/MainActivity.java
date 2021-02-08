@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager(),BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         mPager.setAdapter(pagerAdapter);
     }
+    /**
+     * Relative Layout Parameters link
+     * https://developer.android.com/reference/android/widget/RelativeLayout.LayoutParams
+     */
 }
+
