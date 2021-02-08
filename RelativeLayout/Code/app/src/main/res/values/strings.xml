@@ -6,4 +6,6 @@
     <string name="default_position">Default Position</string>
     <string name="layout_above_mxl">Layout Above</string>
     <string name="layout_align_base_line">Align Base Line</string>
+    <string name="layout_alignBottom">Allign Bottom</string>
+    <string name="layout_alignEnd">Allign End</string>
 </resources>

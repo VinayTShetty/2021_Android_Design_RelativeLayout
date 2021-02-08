@@ -10,20 +10,21 @@
         android:text="@string/reference_button"
         android:backgroundTint="@color/red"
         android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
         android:textAllCaps="false">
     </Button>
     <Button
-        android:id="@+id/layout_above"
+        android:id="@+id/layout_align_base_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/layout_above_mxl"
-        android:layout_above="@+id/reference_button"
+        android:text="@string/layout_alignEnd"
+        android:layout_alignEnd="@+id/reference_button"
         android:textAllCaps="false">
     </Button>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/layout_above_mxl"
+        android:text="@string/layout_alignEnd"
         android:textStyle="bold|italic"
         android:textSize="25dp"
         android:gravity="center"
