@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.relativelayout.example.Fragment.FragmentDefaultPosition;
+import com.relativelayout.example.Fragment.Fragment_layout_ParentEnd;
 import com.relativelayout.example.Fragment.Fragment_layout_above;
 import com.relativelayout.example.Fragment.Fragment_layout_alignBaseline;
 import com.relativelayout.example.Fragment.Fragment_layout_alignEnd;
@@ -37,12 +38,14 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
                 return  new Fragment_layout_alignLeft();
             case 6:
                 return  new Fragment_layout_align_ParentBottom();
+            case 7:
+                return  new Fragment_layout_ParentEnd();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 7;
+        return 8;
     }
 }
