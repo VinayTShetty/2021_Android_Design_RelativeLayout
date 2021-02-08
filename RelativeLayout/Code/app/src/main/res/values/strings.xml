@@ -8,4 +8,5 @@
     <string name="layout_align_base_line">Align Base Line</string>
     <string name="layout_alignBottom">Allign Bottom</string>
     <string name="layout_alignEnd">Allign End</string>
+    <string name="layout_alignLeft">Allign Left</string>
 </resources>
