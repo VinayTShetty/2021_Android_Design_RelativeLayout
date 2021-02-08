@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RelativeLayout</string>
+
+    <string name="reference_button">Reference Button</string>
+
+    <string name="default_position">Default Position</string>
+    <string name="layout_above_mxl">Layout Above</string>
+    <string name="layout_align_base_line">Align Base Line</string>
 </resources>
