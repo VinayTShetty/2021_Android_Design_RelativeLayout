@@ -16,4 +16,5 @@
     <string name="layout_alignParentStart">Align Parent Start</string>
     <string name="layout_alignParentTop">Align Parent Top</string>
     <string name="layout_align_Right">Layout Align Right</string>
+    <string name="layout_align_Start">Layout Align Start</string>
 </resources>
