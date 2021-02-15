@@ -12,4 +12,5 @@
     <string name="layout_alignParentBottom">Align Parent Bottom</string>
     <string name="layout_parentEnd">Align Parent End</string>
     <string name="layout_alignParentLeft">Align Parent Left</string>
+    <string name="layout_alignParentRight">Align Parent Right</string>
 </resources>

@@ -17,14 +17,14 @@
         android:id="@+id/layout_align_base_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/layout_alignParentLeft"
-        android:layout_alignParentLeft="true"
+        android:text="@string/layout_alignParentRight"
+        android:layout_alignParentRight="true"
         android:textAllCaps="false">
     </Button>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/layout_alignParentLeft"
+        android:text="@string/layout_alignParentRight"
         android:textStyle="bold|italic"
         android:textSize="25dp"
         android:gravity="center"
