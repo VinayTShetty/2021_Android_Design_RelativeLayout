@@ -19,4 +19,7 @@
     <string name="layout_align_Start">Layout Align Start</string>
     <string name="layout_align_Top">Layout Align Top</string>
     <string name="layout_alignWithParentIfMissing">Align Parent If Missing</string>
+    <string name="layout_below">Layout Below</string>
+    <string name="layout_centerHorizontal">Center Horizontal</string>
+    <string name="layout_centerInParent">Center In Parent</string>
 </resources>
