@@ -75,7 +75,6 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
                 return  new Fragment_layout_centerHorizontal();
             case 19:
                 return  new Fragment_layout_centerVertical();
-
         }
         return null;
     }
