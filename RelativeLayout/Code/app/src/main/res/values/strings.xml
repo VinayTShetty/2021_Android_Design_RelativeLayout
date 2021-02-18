@@ -26,4 +26,30 @@
     <string name="layout_toLeftOf">Layout Left Of</string>
     <string name="layout_toRightOf">Layout Right Of</string>
     <string name="layout_toStartOf">Start  Of</string>
+
+
+    <!--Description-->
+    <string name="Descriptoin_layout_above">Positions the bottom edge of this view above the given anchor view ID. </string>
+    <string name="Descriptoin_layout_alignBaseline">Positions the baseline of this view on the baseline of the given anchor view ID.</string>
+    <string name="Descriptoin_layout_alignBottom">Makes the bottom edge of this view match the bottom edge of the given anchor view ID. </string>
+    <string name="Descriptoin_layout_alignEnd">Makes the end edge of this view match the end edge of the given anchor view ID.</string>
+    <string name="Descriptoin_layout_alignLeft">Makes the left edge of this view match the left edge of the given anchor view ID.</string>
+    <string name="Descriptoin_layout_alignParentBottom">If true, makes the bottom edge of this view match the bottom edge of the parent.</string>
+    <string name="Descriptoin_layout_alignParentEnd">If true, makes the end edge of this view match the end edge of the parent. </string>
+    <string name="Descriptoin_layout_alignParentLeft">If true, makes the left edge of this view match the left edge of the parent. </string>
+    <string name="Descriptoin_layout_alignParentRight">If true, makes the right edge of this view match the right edge of the parent. </string>
+    <string name="Descriptoin_layout_alignParentStart">	If true, makes the start edge of this view match the start edge of the parent. </string>
+    <string name="Descriptoin_layout_alignParentTop">If true, makes the top edge of this view match the top edge of the parent. </string>
+    <string name="Descriptoin_layout_alignRight">Makes the right edge of this view match the right edge of the given anchor view ID</string>
+    <string name="Descriptoin_layout_alignStart">Makes the start edge of this view match the start edge of the given anchor view ID. </string>
+    <string name="Descriptoin_layout_alignTop">Makes the top edge of this view match the top edge of the given anchor view ID. </string>
+    <string name="Descriptoin_layout_alignWithParentIfMissing">If set to true, the parent will be used as the anchor when the anchor cannot be be found for layout_toLeftOf, layout_toRightOf, etc. </string>
+    <string name="Descriptoin_layout_below">Positions the top edge of this view below the given anchor view ID. </string>
+    <string name="Descriptoin_layout_centerHorizontal">If true, centers this child horizontally within its parent. </string>
+    <string name="Descriptoin_layout_centerInParent">If true, centers this child horizontally and vertically within its parent. </string>
+    <string name="Descriptoin_layout_centerVertical">If true, centers this child vertically within its parent. </string>
+    <string name="Descriptoin_layout_toEndOf">Positions the start edge of this view to the end of the given anchor view ID. </string>
+    <string name="Descriptoin_layout_toLeftOf">Positions the right edge of this view to the left of the given anchor view ID. </string>
+    <string name="Descriptoin_layout_toRightOf">Positions the left edge of this view to the right of the given anchor view ID.</string>
+    <string name="Descriptoin_layout_toStartOf">Positions the end edge of this view to the start of the given anchor view ID. </string>
 </resources>
