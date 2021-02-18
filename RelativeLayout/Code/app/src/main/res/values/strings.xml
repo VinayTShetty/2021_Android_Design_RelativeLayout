@@ -24,4 +24,6 @@
     <string name="layout_centerInParent">Center In Parent</string>
     <string name="layout_centerVertical">Center Vertical</string>
     <string name="layout_toLeftOf">Layout Left Of</string>
+    <string name="layout_toRightOf">Layout Right Of</string>
+    <string name="layout_toStartOf">Start  Of</string>
 </resources>
