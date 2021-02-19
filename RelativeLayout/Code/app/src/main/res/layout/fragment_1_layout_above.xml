@@ -17,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/layout_above_mxl"
+        android:gravity="center"
         android:layout_above="@+id/reference_button"
         android:textAllCaps="false">
     </Button>
@@ -29,6 +30,7 @@
         android:textSize="20dp"
         android:gravity="center"
         android:textColor="@color/black"
+        android:layout_centerInParent="true"
         android:layout_alignParentBottom="true">
     </TextView>
     <TextView
@@ -37,10 +39,20 @@
         android:text="@string/Descriptoin_layout_above"
         android:textStyle="bold|italic"
         android:textSize="15dp"
-       android:layout_margin="10dp"
+        android:layout_margin="10dp"
         android:textAlignment="textStart"
         android:textColor="@color/black"
-        android:layout_above="@+id/tag_name"
-        >
+        android:layout_above="@+id/tag_name">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/Descriptoin_layout_above"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_above="@+id/tag_name">
     </TextView>
 </RelativeLayout>

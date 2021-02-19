@@ -23,13 +23,26 @@
         android:textAllCaps="false">
     </Button>
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/tag_name"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:text="@string/layout_parentEnd"
         android:textStyle="bold|italic"
         android:textSize="25dp"
         android:gravity="center"
         android:textColor="@color/black"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/Descriptoin_layout_above"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_above="@+id/tag_name">
     </TextView>
 </RelativeLayout>
