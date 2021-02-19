@@ -24,6 +24,8 @@ import com.relativelayout.example.Fragment.Fragment_layout_alignbottom;
 import com.relativelayout.example.Fragment.Fragment_layout_below;
 import com.relativelayout.example.Fragment.Fragment_layout_centerHorizontal;
 import com.relativelayout.example.Fragment.Fragment_layout_centerVertical;
+import com.relativelayout.example.Fragment.Fragment_layout_toRightof;
+import com.relativelayout.example.Fragment.Fragment_layout_toStartof;
 import com.relativelayout.example.Fragment.Fragment_layout_toleftof;
 
 
@@ -79,13 +81,16 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
             case 20:
                 return  new Fragment_layout_toleftof();
             case 21:
-                return  new Fragment_layout_to();
+                return  new Fragment_layout_toRightof();
+            case 22:
+                return  new Fragment_layout_toStartof();
+                
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 21;
+        return 23;
     }
 }
