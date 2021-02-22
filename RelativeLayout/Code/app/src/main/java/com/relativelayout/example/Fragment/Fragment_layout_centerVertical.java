@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.relativelayout.example.R;
+
 public class Fragment_layout_centerVertical extends BaseFragment {
     @Override
     public void onAttach(@NonNull Context context) {
@@ -23,7 +25,8 @@ public class Fragment_layout_centerVertical extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_19_layout_centervertical,container,false);
+        return viewGroup;
     }
 
     @Override
