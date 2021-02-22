@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 
 import com.relativelayout.example.R;
 
-public class fragment_layout_centerInParent extends BaseFragment {
+public class Fragment_layout_toEndOf extends BaseFragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
@@ -25,7 +25,7 @@ public class fragment_layout_centerInParent extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_18_layout_centerinparent,container,false);
+        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_23_layout_toend_of,container,false);
         return viewGroup;
     }
 

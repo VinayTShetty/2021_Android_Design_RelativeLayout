@@ -26,7 +26,7 @@
     <string name="layout_toLeftOf">Layout Left Of</string>
     <string name="layout_toRightOf">Layout Right Of</string>
     <string name="layout_toStartOf">Start  Of</string>
-
+    <string name="layout_toEndOf">Layout End Of</string>
 
     <!--Description-->
     <string name="Descriptoin_layout_above">Positions the bottom edge of this view above the given anchor view ID. </string>

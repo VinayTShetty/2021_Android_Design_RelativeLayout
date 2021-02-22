@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/reference_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reference_button"
+        android:backgroundTint="@color/red"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false">
+    </Button>
+    <Button
+        android:id="@+id/layout_align_base_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/layout_toEndOf"
+       android:layout_toEndOf="@+id/reference_button"
+        android:textAllCaps="false">
+    </Button>
+    <TextView
+        android:id="@+id/tag_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/layout_toEndOf"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/Descriptoin_layout_alignBaseline"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_above="@+id/tag_name">
+    </TextView>
+</RelativeLayout>
